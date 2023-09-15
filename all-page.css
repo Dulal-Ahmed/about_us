@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* about page design start */
+.ab-sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5vw;
+    background-color: rgb(62, 62, 62);
+    padding: 3vw 10vw;
+}
+
+.ab-sec-1 h2 {
+    font-size: 3.5vw;
+    color: white;
+}
+
+.ab-sec-1 iframe {height: 20vw; width: 40vw;}
+
+.ab-sec-1 p {
+    font-size: 1.2vw;
+    color: rgb(220, 220, 220);
+}
+
+.ab-sec-2 {padding: 5vw 10vw;}
+
+.ab-sec-2 h3 {
+    font-size: 2.3vw;
+    margin: 30px 0 8px 0;
+}
+
+.ab-sec-2 > h2 {
+    font-size: 2.5vw;
+    margin: 0 0 20px 0;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-container .first-box {display: flex;}
+.box-container .sec-box {display: flex;}
+.box-container .first-box .child-one {width: 50%;}
+
+.box-container .first-box .child-two {
+    width: 50%;
+    height: 53vw;
+}
+
+.box-container .first-box .child-two img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-container .first-box .child-one .box-one {
+    background-color: rgb(0, 255, 115);
+    color: black;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    padding: 0 5vw;
+}
+
+.box-container .first-box .child-one .box-one h2 {font-size: 2.2vw;}
+.box-container .first-box .child-one .box-one p {font-size: 1.3vw;}
+
+.box-container .first-box .child-one .box-two {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    padding: 0 4vw;
+}
+
+.box-container .first-box .child-one .box-two h2 {font-size: 2vw;}
+.box-container .first-box .child-one .box-two p {font-size: 1.4vw;}
+
+.box-container .sec-box .child-one {
+    width: 50%;
+    position: relative;
+}
+
+.box-container .sec-box .child-one .box-abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 26vw;
+    height: 44vw;
+}
+
+.box-container .sec-box .child-one .box-abs img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-container .sec-box .child-two {width: 50%;}
+
+.box-container .sec-box .child-one .box-one {
+    background-color: rgb(0, 255, 115);
+    height: 30vw;
+}
+
+.box-container .sec-box .child-one .box-two {
+    background-color: rgb(62, 62, 62);
+    height: 30vw;
+}
+
+.box-container .sec-box .child-two .box-one {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    padding: 0 5vw;
+}
+
+.box-container .sec-box .child-two .box-two {
+    background-color: rgb(0, 255, 115);
+    color: black;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    padding: 0 5vw;
+}
+
+.box-container .sec-box .child-two .box-one h2 {font-size: 2.2vw;}
+.box-container .sec-box .child-two .box-one p {font-size: 1.3vw;}
+.box-container .sec-box .child-two .box-two h2 {font-size: 2.2vw;}
+.box-container .sec-box .child-two .box-two p {font-size: 1.3vw;}
+
+.ab-sec-3 {
+    padding: 5vw 10vw; 
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+.ab-sec-3 h3 {font-size: 2.3vw;}
+.ab-sec-3 h2 {font-size: 2.5vw;}
+
+.ab-sec-3 .img-txt {
+    display: flex;
+    align-items: end;
+    gap: 5vw;
+    margin-top: 5vw;
+}
+
+.ab-sec-3 .img-txt .image {
+    width: 200vw;
+    height: 25vw;
+}
+
+.ab-sec-3 .img-txt .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.ab-sec-3 .img-txt .txt {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.ab-sec-3 .img-txt .txt h2 {margin-bottom: 1vw;}
+.ab-sec-3 .img-txt .txt p {font-size: 1.3vw;}
+
+.ab-sec-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vw 10vw;
+}
+
+.ab-sec-4 .txt{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.ab-sec-4 .txt h2 {
+    font-size: 2.8vw;
+    margin-bottom: 3vw;
+}
+
+.ab-sec-4 .txt h3 {
+    font-size: 1.8vw;
+}
+
+.ab-sec-4 .txt .app {
+    display: flex;
+    gap: 5vw;
+    margin-top: 5vw;
+}
+
+.ab-sec-4 .txt .app img {
+    width: 12vw;
+    height: 4vw;
+}
+
+.ab-sec-4 .image {
+    width: 20vw;
+    height: 18vw;
+}
+
+.ab-sec-4 .image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* about page design end */
+
+/* max-width 600px screen */
+@media(max-width:600px) {
+    .ab-sec-1 {padding: 5vw; gap: 2vw;}
+    .ab-sec-1 h2 {font-size: 4.5vw;}
+    .ab-sec-1 iframe {height: 40vw; width: 100%;}
+    .ab-sec-1 p {font-size: 2.5vw;}
+    .ab-sec-2 {padding: 5vw;}
+    .ab-sec-2 h3 {font-size: 4vw;}
+    .ab-sec-2 > h2 {font-size: 5vw;}
+    .box-container .first-box {flex-direction: column;}
+    .box-container .first-box .child-one {width: 100%;}
+    .box-container .first-box .child-two {width: 100%;height: 80vw;}
+    .ab-sec-2 .blank {height: 190vw;}
+    .ab-sec-2 .image {height: 310vw;}
+    .box-container .first-box .child-one .box-one {height: 50vw; padding: 0 10vw;}
+    .box-container .first-box .child-one .box-one h2 {font-size: 5vw;}
+    .box-container .first-box .child-one .box-one p {font-size: 3vw;}
+    .box-container .first-box .child-one .box-two {height: 50vw; padding: 0 8vw;}
+    .box-container .first-box .child-one .box-two h2 {font-size: 4.5vw;}
+    .box-container .first-box .child-one .box-two p {font-size: 2.8vw;}
+    .box-container .sec-box {flex-direction: column;}
+    .box-container .sec-box .child-one {width: 100%; order: 2;}
+    .box-container .sec-box .child-two {width: 100%; order: 1; display: flex; flex-direction: column;}
+    .box-container .sec-box .child-two .box-one {height: 50vw; padding: 0 10vw; order: 2;}
+    .box-container .sec-box .child-two .box-one h2 {font-size: 5vw;}
+    .box-container .sec-box .child-two .box-one p {font-size: 3vw;}
+    .box-container .sec-box .child-two .box-two {height: 50vw; padding: 0 10vw; order: 1;}
+    .box-container .sec-box .child-two .box-two h2 {font-size: 5vw;}
+    .box-container .sec-box .child-two .box-two p {font-size: 3vw;}
+    .box-container .sec-box .child-one .box-one {height: 50vw;}
+    .box-container .sec-box .child-one .box-two {height: 50vw;}
+    .box-container .sec-box .child-one .box-abs {width: 50vw; height: 80vw;}
+    .ab-sec-3 {padding: 5vw;}
+    .ab-sec-3 h3 {font-size: 4vw;}
+    .ab-sec-3 h2 {font-size: 5vw;}
+    .ab-sec-3 .img-txt {flex-direction: column;}
+    .ab-sec-3 .img-txt .image {width: 100%; height: 50vw;}
+    .ab-sec-3 .img-txt .txt p {font-size: 3vw;}
+    .ab-sec-4 {flex-direction: column; align-items: start; padding: 5vw;}
+    .ab-sec-4 .txt { gap: 1vw; margin-bottom: 5vw;}
+    .ab-sec-4 .txt h2 {font-size: 5vw;}
+    .ab-sec-4 .txt h3 {font-size: 3vw;}
+    .ab-sec-4 .txt .app img {width: 30vw; height: 8vw;}
+    .ab-sec-4 .image {width: 44vw; height: 25vw;}    
+}
